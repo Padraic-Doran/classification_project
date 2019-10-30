@@ -101,11 +101,11 @@ Other important details that I did not want to bury in prose:
 
 All RANDOM STATES = 123. This is imperative for recreating my results.
 
-MAX DEPTH for both DECISION TREE and RANDOM FOREST functions is 2. Anything else will produce different results.
+MAX DEPTH for both DECISION TREE and RANDOM FOREST functions is 5. Anything else will produce different results.
 
-I HIGHLY ENCOURAGE YOU TO COPY AND PASTE ANY FUNCTIONS IN MY PY FILES INTO YOUR NOTEBOOK. I am improving IRT my ability to write universal functions, but still have some ground to cover. Reviewing my functions might prevent some heartache on your end. 
+I HIGHLY ENCOURAGE YOU TO COPY AND PASTE ANY FUNCTIONS FROM MY PY FILES INTO YOUR NOTEBOOK. I am improving IRT my ability to write universal functions, but still have some ground to cover. Reviewing my functions might prevent frustration on your end. 
 
 General Conclusions: The variables with the highest correlation to whether a customer churns or not are monthly charges, total charges, and tenure. I elected to not scale this data before I compared it to the target variable, which was predicting where someone churned or not. After examining all of the models that I was familiar with, I concluded that using a simple Decision Tree model with a depth of 2 created a predictability score of around .8. I feel satisfied with this score because it does not overfit the data. I fear that increasing the number of features might cause the curse of dimensionality with too few data points being available for training and testing. However, there exists future research with models that fit other classifications, such as family type, type of contract, etc.
 
-Link to google slides: 
+Link to google slides: https://docs.google.com/presentation/d/1yokx3Y_kkDFaQ56mI1Y-H7H5Gg23xUvSL5qjkco_LDk/edit#slide=id.p
 
